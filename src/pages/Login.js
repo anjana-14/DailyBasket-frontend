@@ -36,7 +36,7 @@ export default function Login() {
       <div className="login-card">
         <div className="login-logo">
           <FaShoppingCart size={28} />
-          <span>FreshCart Market</span>
+          <span>Daily Basket</span>
         </div>
 
         <h2 className="login-title">Welcome back</h2>
@@ -67,11 +67,21 @@ export default function Login() {
             Login
           </button>
         </form>
+        {/* Demo credentials box */}
+        <div className="alert alert-info mt-3" style={{ fontSize: "0.9rem" }}>
+          <strong>Demo Admin Login</strong>
+          <br />
+          Email: <code>admin@gmail.com</code>
+          <br />
+          Password: <code>123456</code>
+          <hr />
+          <strong>Demo Cashier Login</strong>
+          <br />
+          Email: <code>cashier@gmail.com</code>
+          <br />
+          Password: <code>123456</code>
 
-        <p className="login-hint mt-3">
-          Admin: <code>admin@gmail.com</code> / Cashier: <code>cashier@gmail.com</code>
-        </p>
-      </div>
     </div>
-  );
-}
+    </div>
+    </div>
+  )}
