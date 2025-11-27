@@ -73,13 +73,13 @@ export default function Login() {
           <br />
           Email: <code>admin@gmail.com</code>
           <br />
-          Password: <code>123456</code>
+          Password: <code>admin123</code>
           <hr />
           <strong>Demo Cashier Login</strong>
           <br />
           Email: <code>cashier@gmail.com</code>
           <br />
-          Password: <code>123456</code>
+          Password: <code>admin123</code>
 
     </div>
     </div>
